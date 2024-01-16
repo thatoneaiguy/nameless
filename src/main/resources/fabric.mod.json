@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "nameless",
+  "version": "${version}",
+  "name": "Nameless",
+  "description": "Hides the names of invisible players.",
+  "authors": [
+    "AmyMialee"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/nameless/icon.png",
+  "environment": "server",
+  "mixins": [
+    "nameless.mixins.json"
+  ]
+}
