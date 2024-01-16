@@ -7,7 +7,11 @@
   "authors": [
     "AmyMialee"
   ],
-  "contact": {},
+  "contact": {
+    "homepage": "https://amymialee.xyz",
+    "sources": "https://github.com/AmyMialeeMods/nameless",
+    "issues": "https://github.com/AmyMialeeMods/nameless/issues"
+  },
   "license": "All-Rights-Reserved",
   "icon": "assets/nameless/icon.png",
   "environment": "server",
