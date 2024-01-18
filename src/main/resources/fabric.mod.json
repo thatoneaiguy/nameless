@@ -14,7 +14,7 @@
   },
   "license": "All-Rights-Reserved",
   "icon": "assets/nameless/icon.png",
-  "environment": "server",
+  "environment": "*",
   "mixins": [
     "nameless.mixins.json"
   ]

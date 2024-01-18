@@ -4,7 +4,8 @@
   "package": "xyz.amymialee.nameless.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "DamageSourceMixin"
+    "DamageSourceMixin",
+    "DamageTrackerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
