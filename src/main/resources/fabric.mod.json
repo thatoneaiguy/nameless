@@ -1,21 +1,31 @@
 {
-  "schemaVersion": 1,
-  "id": "nameless",
-  "version": "${version}",
-  "name": "Nameless",
-  "description": "Hides the names of invisible players.",
-  "authors": [
-    "AmyMialee"
-  ],
-  "contact": {
-    "homepage": "https://amymialee.xyz",
-    "sources": "https://github.com/AmyMialeeMods/nameless",
-    "issues": "https://github.com/AmyMialeeMods/nameless/issues"
-  },
-  "license": "All-Rights-Reserved",
-  "icon": "assets/nameless/icon.png",
-  "environment": "*",
-  "mixins": [
-    "nameless.mixins.json"
-  ]
+	"schemaVersion": 1,
+	"id": "nameless",
+	"version": "${version}",
+	"name": "nameless",
+	"description": "Hides invisible players names",
+	"authors": [
+		"amymialee",
+		"eeverest"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/nameless/icon.png",
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": [
+		"nameless.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
 }
